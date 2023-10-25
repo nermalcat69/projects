@@ -1,11 +1,12 @@
 {
-  "name": "next-template",
-  "version": "0.0.2",
+  "name": "projects",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "nermalize": "next dev",
+    "tunnel": "tunnel share",
+    "wermalize": "next build",
+    "nermal": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
@@ -22,6 +23,7 @@
     "next-themes": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "sharp": "^0.31.3",
     "tailwind-merge": "^1.13.2",
     "tailwindcss-animate": "^1.0.6"
