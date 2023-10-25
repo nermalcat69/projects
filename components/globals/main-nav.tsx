@@ -4,7 +4,6 @@ import Link from "next/link"
 import { NavItem } from "@/types/nav"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 
 interface MainNavProps {
   items?: NavItem[]
@@ -12,14 +11,11 @@ interface MainNavProps {
 
 export function MainNav({ items }: MainNavProps) {
   return (
-    <div className="flex gap-4 md:gap-2">
-      <Link
-        href="https://www.nermalcat69.com"
-        className="flex items-center space-x-2"
-      >
-        <Icons.logo className="h-6 w-6" />
-        <span className="inline-block font-bold">{siteConfig.name}</span>
-        <span>/</span>
+    <div className="flex items-center gap-4 md:gap-2">
+      <Link href="https://www.nermalcat69.com" className="flex space-x-2">
+        <span className="text-xl text-gray-800 inline-block font-bold">
+          {siteConfig.name}
+        </span>
       </Link>
       {items?.length ? (
         <nav className="flex gap-6">
@@ -30,7 +26,7 @@ export function MainNav({ items }: MainNavProps) {
                   key={index}
                   href={item.href}
                   className={cn(
-                    "flex items-center text-sm font-medium text-muted-foreground",
+                    "flex items-center font-medium text-gray-600 text-md",
                     item.disabled && "cursor-not-allowed opacity-80"
                   )}
                 >
