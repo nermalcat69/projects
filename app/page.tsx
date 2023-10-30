@@ -1,7 +1,5 @@
-import Link from "next/link"
+import  Projects  from '@/components/projects'
 
-import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/globals/button"
 
 export default function IndexPage() {
   return (
@@ -15,6 +13,7 @@ export default function IndexPage() {
           into your apps. Free. Open Source. And Next.js 13 Ready.
         </p>
       </div>
+      <Projects />                
     </section>
   )
 }

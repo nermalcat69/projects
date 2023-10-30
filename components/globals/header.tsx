@@ -2,12 +2,12 @@ import Link from "next/link"
 import { FaGithub } from "react-icons/fa6"
 
 import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/globals/button"
+import { buttonVariants } from "@/ui/button"
 import { MainNav } from "@/components/globals/main-nav"
 
 export function Header() {
   return (
-    <header className="bg-background top-0 w-full border-b">
+    <header className="bg-background top-0 w-full border-b py-3">
       <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
@@ -18,7 +18,7 @@ export function Header() {
               rel="noreferrer"
             >
               <div className={buttonVariants()}>
-                <div className="inline-flex items-center py-1 px-2 space-x-3 rounded-md  ">
+                <div className="bg-gray-950 hover:bg-gray-800 text-white inline-flex items-center py-3 px-6 space-x-3 rounded-md  ">
                   <FaGithub className="h-6 w-6" />
                   <text className="font-semibold">Contribute</text>
                 </div>

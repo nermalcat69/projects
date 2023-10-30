@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig
 export const siteConfig = {
   name: "Nermalcat69",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Nermalcat69's Projects",
   mainNav: [
     {
       title: "",
@@ -15,4 +15,11 @@ export const siteConfig = {
     github: "https://github.com/nermalcat69",
     docs: "https://ui.shadcn.com",
   },
+}
+
+export const Projects = {
+  
+  fields: {
+    title: {type: 'string', required: true}
+  }
 }
