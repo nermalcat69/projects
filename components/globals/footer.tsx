@@ -15,19 +15,33 @@ export function Footer() {
         </span>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center ">
-            <Link
-              href={siteConfig.links.github}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="">
-                <div className="inline-flex items-center space-x-3 rounded-md  ">
-                  <FaXTwitter className="h-6 w-6 text-gray-800 hover:text-gray-600" />
-                  <FaLinkedinIn className="h-6 w-6 text-gray-800 hover:text-gray-600" />
-                  <FaGithub className="h-6 w-6 text-gray-800 hover:text-gray-600" />
-                </div>
+            <div className="">
+              <div className="inline-flex items-center space-x-3 rounded-md  ">
+                <Link
+                  href={siteConfig.links.twitter}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FaXTwitter className="h-6 w-6 text-gray-800 hover:text-gray-600" />{" "}
+                </Link>
+                <Link
+                  href={siteConfig.links.github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  <FaLinkedinIn className="h-6 w-6 text-gray-800 hover:text-gray-600" />{" "}
+                </Link>
+                <Link
+                  href={siteConfig.links.github}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaGithub className="h-6 w-6 text-gray-800 hover:text-gray-600" />{" "}
+                </Link>
               </div>
-            </Link>
+            </div>
           </nav>
         </div>
       </div>
