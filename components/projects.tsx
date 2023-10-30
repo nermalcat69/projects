@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "@/components/globals/card"
 
 const projectsData = [
   { releaseDate: "2023", name: "Test", link: "https://google.com" },
@@ -18,26 +19,6 @@ export default function Projects() {
           ))}
         </div>
       </div>
-    </div>
-  );
-}
-
-
-
-interface Card {
-  releaseDate: string;
-  name: string;
-  link: string;
-}
-
-
-export function Card({ releaseDate, name, link }) {
-  return (
-    <div className="card py-8 px-5">
-      <a href={link} className="">
-        <h2 className="text-lg font-semibold text-gray-800">{name}</h2>
-        <span className="font-mono self-center">{releaseDate}</span>
-      </a>
     </div>
   );
 }
