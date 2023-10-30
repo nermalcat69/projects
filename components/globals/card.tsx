@@ -7,8 +7,8 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ releaseDate, name, link }) => (
   <div className="card py-8 px-5">
     <a href={link} className="card-link">
-      <h2 className="text-lg font-semibold text-gray-800">{name}</h2>
-      <span className="card-date">{releaseDate}</span>
+      <h2 className="text-lg font-bold text-gray-800">{name}</h2>
+      <span className="text-gray-600">{releaseDate}</span>
     </a>
   </div>
 );
