@@ -1,5 +1,4 @@
 import "@/styles/globals.css"
-
 import { Metadata } from "next"
 
 import { siteConfig } from "@/config/site"
@@ -42,8 +41,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <div className=" flex flex-col min-h-screen">
             <Header />
-            <div className="flex-1">{children}
-            </div>
+            <div className="flex-1">{children}</div>
           </div>
           <Footer />
         </body>

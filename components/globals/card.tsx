@@ -1,7 +1,7 @@
 interface CardProps {
-  releaseDate: string;
-  name: string;
-  link: string;
+  releaseDate: string
+  name: string
+  link: string
 }
 
 const Card: React.FC<CardProps> = ({ releaseDate, name, link }) => (
@@ -11,6 +11,6 @@ const Card: React.FC<CardProps> = ({ releaseDate, name, link }) => (
       <span className="text-gray-600">{releaseDate}</span>
     </a>
   </div>
-);
+)
 
-export default Card;
+export default Card

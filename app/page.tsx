@@ -1,5 +1,4 @@
-import  Projects  from '@/components/projects'
-
+import Projects from "@/components/projects"
 
 export default function IndexPage() {
   return (
@@ -9,10 +8,11 @@ export default function IndexPage() {
           Projects
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Nermalcat69's github projects you can click on the card to preview the project :D
+          Nermalcat69's github projects you can click on the card to preview the
+          project :D
         </p>
       </div>
-      <Projects />                
+      <Projects />
     </section>
   )
 }

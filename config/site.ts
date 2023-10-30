@@ -2,8 +2,7 @@ export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
   name: "Nermalcat69",
-  description:
-    "Nermalcat69's Projects",
+  description: "Nermalcat69's Projects",
   mainNav: [
     {
       title: "",
@@ -18,8 +17,7 @@ export const siteConfig = {
 }
 
 export const Projects = {
-  
   fields: {
-    title: {type: 'string', required: true}
-  }
+    title: { type: "string", required: true },
+  },
 }
