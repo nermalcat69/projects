@@ -10,6 +10,7 @@ export const siteConfig = {
     },
   ],
   links: {
+    contribute: "https://github.com/nermalcat69/projects",
     twitter: "https://twitter.com/nermalcat69",
     github: "https://github.com/nermalcat69",
   },

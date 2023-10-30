@@ -13,7 +13,7 @@ export function Header() {
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center ">
             <Link
-              href={siteConfig.links.github}
+              href={siteConfig.links.contribute}
               target="_blank"
               rel="noreferrer"
             >
