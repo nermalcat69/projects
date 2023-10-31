@@ -3,16 +3,16 @@ import React from "react"
 import Card from "@/components/globals/card"
 
 const projectsData = [
-  { releaseDate: "2023", name: "Test", link: "https://google.com" },
-  { releaseDate: "2022", name: "test 2", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-    { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
-  { releaseDate: "2021", name: "LOLZ", link: "https://google.com" },
+  { releaseDate: "2023", name: "Test", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2022", name: "test 2", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+    { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
+  { releaseDate: "2021", name: "LOLZ", description: "im nermalcat69", link: "https://google.com" },
 
 ]
 
