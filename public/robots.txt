@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nermalcat69.vercel.app/
+
+# Sitemaps
+Sitemap: https://nermalcat69.vercel.app/sitemap.xml

@@ -7,8 +7,8 @@ export default function IndexPage() {
       <div className="pb-4">
         <></>
         <p className="max-w-[900px] text-md md:text-lg text-gray-700">
-          Hello! I'm <strong>Arjun Aditya</strong>, also known as{" "}
-          <strong>nermalcat69</strong>. 17 years old and still managing
+          Hello! I'm <strong>Arjun Aditya</strong>, also known by my internet alias{" "}
+          <strong>nermalcat69</strong>. 17 years old and juggling
           school, I'm a full-stack developer. I love crafting sleek
           and user-friendly interfaces. I'm deeply enthusiastic about web
           development and currently exploring macOS/iOS
