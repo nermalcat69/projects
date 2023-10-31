@@ -21,7 +21,7 @@ export default function IndexPage() {
         </h2>
         <p className="max-w-[700px] text-md md:text-lg text-gray-700">
           Explore <Link className="text-gray-600 hover:text-gray-700 font-semibold" href="https://github.com/nermalcat69">my github</Link> projects &#8211; click on the cards to get a
-          sneak peek at my latest creations! 😃
+          sneak peek at my creations! 😃
         </p>
       </div>
       <Projects />
