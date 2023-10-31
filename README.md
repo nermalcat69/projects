@@ -1,3 +1,5 @@
+![Age](https://img.shields.io/badge/projects_by_nermalcat69-c70000)
+
 # Projects
 nermalcat69's open source github projects 
 
