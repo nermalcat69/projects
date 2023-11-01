@@ -17,4 +17,4 @@ Welcome to my project repository! Here, you can explore a collection of both ope
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/).
