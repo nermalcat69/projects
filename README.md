@@ -1,8 +1,5 @@
-# Nermal's Projects
-
-this website shows my open source and closed source projects i built so far and you preview them if you want to
-
-![ image ](header.png)
+# Projects
+nermalcat69's open source github projects 
 
 ## Features
 
