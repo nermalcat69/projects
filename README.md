@@ -3,7 +3,7 @@
 
 ![ cover ](cover.png)
 
-This website shows my open source and closed source projects i built so far and you preview them if you want to
+Welcome to my project repository! Here, you can explore a collection of both open source and closed source projects I've crafted over time. Feel free to preview any of them.
 
 
 ## Features
