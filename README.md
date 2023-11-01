@@ -1,5 +1,8 @@
-# Projects
-nermalcat69's open source github projects 
+# Nermal's Projects
+
+this website shows my open source and closed source projects i built so far and you preview them if you want to
+
+![ image ](header.png)
 
 ## Features
 
@@ -8,9 +11,7 @@ nermalcat69's open source github projects
 - Tailwind CSS
 - Icons from [React Icons](http://react-icons.github.io/react-icons/)
 
-
 ---
-
 
 ## License
 
