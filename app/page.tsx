@@ -11,8 +11,8 @@ export default function IndexPage() {
           school, I'm a full-stack developer. I love crafting sleek
           and user-friendly interfaces. I'm deeply enthusiastic about web
           development and currently exploring macOS/iOS
-          development. Follow me on <Link className="text-gray-600 hover:text-gray-700 font-semibold" href="https://twitter.com/nermalcat69">Twitter</Link> *cat pleading*{" "}
-        </p>
+          development. Follow me on <Link className="text-gray-600 hover:text-gray-700 font-semibold" href="https://twitter.com/nermalcat69">Twitter</Link> *cat pleading*
+          {" "}Add pngs "white mode" to the project cards</p>
       </div>
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h2 className="text-lg font-bold leading-tight tracking-normal md:text-2xl text-gray-800">

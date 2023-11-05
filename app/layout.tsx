@@ -1,8 +1,7 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
-
+import { GeistSans } from 'geist/font'
 import { siteConfig } from "@/config/site"
-import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Footer } from "@/components/globals/footer"
 import { Header } from "@/components/globals/header"
@@ -28,15 +27,13 @@ interface RootLayoutProps {
   children: React.ReactNode
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
-    <>
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning className={GeistSans.className}>
         <head />
         <body
           className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
+            "min-h-screen bg-background font-sans antialiased overflow-scroll	"
           )}
         >
           <div className=" flex flex-col min-h-screen">
@@ -46,6 +43,5 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Footer />
         </body>
       </html>
-    </>
   )
 }

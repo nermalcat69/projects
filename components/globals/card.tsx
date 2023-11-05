@@ -2,17 +2,30 @@ interface CardProps {
   releaseDate: string
   name: string
   description: string
+  thumbnail: string
   link: string
+  TopicOne: string
+  TopicTwo: string
+  TopicThree: string
+
 }
 
-const Card: React.FC<CardProps> = ({ releaseDate, name, description, link }) => (
-  <div className="card py-3 px-3 md:py-8 md:px-5">
-    <a href={link}>
-      <h2 className="text-md md:text-lg font-semibold  text-gray-800">{name}</h2>
-      <p className="text-sm md:text-md text-gray-700 mb-4 mt-1">{description}</p>
-      <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">{releaseDate}</span>
-    </a>
-  </div>
+const Card: React.FC<CardProps> = ({ releaseDate, thumbnail, name, description, link, TopicOne, TopicTwo, TopicThree }) => (
+  <a href={link}>
+    <div className="card ">
+      <img className="thumbnail" alt={name} src={thumbnail} />
+      <div className="py-3 px-4 md:py-7 md:px-7">
+        <span className="flex justify-center md:justify-start gap-1">
+          <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">{TopicOne}</span>
+          <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">{TopicTwo}</span>
+          <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">{TopicThree}</span>
+        </span>
+        <h2 className="text-md md:text-lg font-semibold text-gray-800 pt-3">{name}</h2>
+        <p className="text-sm md:text-md text-gray-700 mb-4 mt-1">{description}</p>
+        <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">{releaseDate}</span>
+      </div>
+    </div>
+  </a>
 )
 
 export default Card

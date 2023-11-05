@@ -38,15 +38,26 @@
 
 .card {
 border-radius: 12px;
-border: 1px solid #EBEBEB;
+border: 1px dashed #ebebeb;
 background: #fdfdfd;
 transition-property: border-color,background;
 transition-duration: .15s;
+padding: 0.5rem;
 }
 
 .card:hover {
-border: 1px solid #999999;
+border: 1px dashed #D0D0D0;
 background: #fff;
 
-transition: 69ms ease;
+transition: 79ms ease;
   }
+
+  body {
+    background-color: #fff;
+  }
+
+
+.thumbnail {
+  border: #ebebeb 1px dashed;
+  border-radius: 12px;
+}
