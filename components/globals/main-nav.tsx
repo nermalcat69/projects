@@ -2,10 +2,9 @@ import * as React from "react"
 import Link from "next/link"
 
 import { NavItem } from "@/types/nav"
-import Gradient from "@/components/globals/gradient"
-
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
+import Gradient from "@/components/svgs/gradient"
 
 interface MainNavProps {
   items?: NavItem[]
@@ -15,7 +14,9 @@ export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex items-center gap-4 md:gap-2">
       <Link href="/" className="flex space-x-2 items-center">
-        <span className="pr-1"><Gradient /></span>
+        <span className="pr-1">
+          <Gradient />
+        </span>
         <span className="text-xl text-gray-800 inline-block font-bold">
           {siteConfig.name}
         </span>
