@@ -25,7 +25,7 @@ export function Header() {
               </div>
             </Link>
           </nav>
-        n</div>
+        </div>
       </div>
     </header>
   )
