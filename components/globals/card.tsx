@@ -25,13 +25,13 @@ const Card: React.FC<CardProps> = ({
       <div className="py-3 px-4 md:py-7">
         <div className="flex justify-center lg:justify-start">
         <span className="flex gap-1">
-          <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
+          <span className="text-gray-500 sm:text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
             {TopicOne}
           </span>
-          <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
+          <span className="text-gray-500 sm:text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
             {TopicTwo}
           </span>
-          <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
+          <span className="text-gray-500 sm:text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
             {TopicThree}
           </span>
         </span>
