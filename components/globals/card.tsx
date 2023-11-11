@@ -22,8 +22,9 @@ const Card: React.FC<CardProps> = ({
   <a href={link}>
     <div className="card ">
       <img className="thumbnail" alt={name} src={thumbnail} />
-      <div className="py-3 px-4 md:py-7 md:px-7">
-        <span className="flex justify-center md:justify-start gap-1">
+      <div className="py-3 px-4 md:py-7">
+        <div className="flex justify-center lg:justify-start">
+        <span className="flex gap-1">
           <span className="text-gray-700 text-xs border border-gray-200 rounded-full py-1 px-2">
             {TopicOne}
           </span>
@@ -34,6 +35,7 @@ const Card: React.FC<CardProps> = ({
             {TopicThree}
           </span>
         </span>
+        </div>
         <h2 className="text-md md:text-lg font-semibold text-gray-800 pt-3">
           {name}
         </h2>
