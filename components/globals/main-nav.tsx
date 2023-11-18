@@ -17,7 +17,7 @@ export function MainNav({ items }: MainNavProps) {
         <span className="pr-1">
           <Gradient />
         </span>
-        <span className="text-xl text-gray-800 inline-block font-bold">
+        <span className="text-lg text-gray-800 tracking-wide inline-block font-bold">
           {siteConfig.name}
         </span>
       </Link>
