@@ -28,15 +28,14 @@ export function Header() {
         </div>
       </div>
       </div>
-      {/* <div className="container flex h-10 items-center space-x-4 sm:justify-between sm:space-x-0">
+      <div className="container flex h-10 items-center space-x-4 sm:justify-between sm:space-x-0">
         <div className="flex flex-1 items-center justify-start space-x-4">
           <nav className="flex items-center space-x-2">
             <div>nermal</div>
             <div>nermal</div>
           </nav>
         </div>
-      </div> */}
-
+      </div>
     </header>
   )
 }
