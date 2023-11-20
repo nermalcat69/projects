@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 import Projects from "@/components/projects"
-// import ToolBar from "@/components/Sections/toolbar"
+import ToolBar from "@/components/Sections/toolbar"
 
 export default function IndexPage() {
   return (
@@ -28,7 +28,7 @@ export default function IndexPage() {
           *cat pleading* Add pngs "white mode" to the project cards
         </p>
       </div>
-      {/* <ToolBar /> */}
+      <ToolBar />
       <div className="flex max-w-[980px] flex-col items-start gap-2">
         <h2 className="text-lg font-bold leading-tight tracking-normal md:text-2xl text-gray-800">
           Projects

@@ -10,7 +10,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "Test",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -21,7 +21,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "Test",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -32,7 +32,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "test 2",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -43,7 +43,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -54,7 +54,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -65,7 +65,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -76,7 +76,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/thumbnail.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -87,7 +87,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/cover.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -98,7 +98,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/cover.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -109,7 +109,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/cover.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
@@ -120,7 +120,7 @@ const projectsData = [
     TopicThree: "Tailwind",
     name: "LOLZ",
     thumbnail:
-      "https://raw.githubusercontent.com/nermalcat69/Site/main/cover.png",
+      "https://opents-assets-jxk5gayhu-nermalcat69s-projects.vercel.app/temporary/thumbnail.png",
     description: "im nermalcat69",
     link: "https://google.com",
   },
