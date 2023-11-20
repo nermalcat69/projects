@@ -57,11 +57,6 @@ transition: 79ms ease;
   }
 
 
-.thumbnail {
-  border: #ebebeb 1px dashed;
-  border-radius: 12px;
-}
-
 .toolbar {
   border: #ebebeb 1px dashed;
   border-radius: 12px;
